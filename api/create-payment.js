@@ -153,8 +153,8 @@ function triggerFacebookCAPI(payer, amount) {
         };
 
         const payloadStr = JSON.stringify(payload);
-        const pixelId = "1275998244606117";
-        const apiToken = "EAAK6H9X0gZCsBRwTg9ZAjxn98tbQ5FHm6zQ0UpxWgh0kX7Y85FCLsw1KPW8SOjdqBUNGfXZBST09eFGU6GCDdMb68LDl6lzQY7KgwgxnPfvlbmTYkLW58ND6V8fmPmII1yZB3TQe7uMoxHwHI34ZBy1oVeXimAJVvjZAVv5DoZC6fndWZBI48eF07bKZCAtxZCpISwUwZDZD";
+        const pixelId = "2076154482975648";
+        const apiToken = "EAAK6H9X0gZCsBR21vQZAyo1sZBxMvfkXq0h7tTEpc30zYhPx6ZBMAWLGGOzrcVy8ZAXOHPqKFDNmQToTKLfkpUgNgsS3CVB4YI0RwMVZCiA9PBrR8gVuKAKRdnCiK5LcPRx7UzJF0jJMIQ5sTCZC7tF422oNlfYCOBgLn9LItmyeMCxHcWQMcCoCkAw6NVQIZCkjLQZDZD";
 
         const options = {
             hostname: 'graph.facebook.com',

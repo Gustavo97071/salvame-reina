@@ -3,3 +3,4 @@
 .system_generated/
 temp/
 node_modules/
+.vercel
