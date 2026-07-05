@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Camiseta Devocional de Nuestra Señora Aparecida - Regalo de Fe</title>
+    <meta name="description" content="Reciba gratuitamente la Camiseta Devocional de Nuestra Señora Aparecida. Camiseta religiosa 100% algodón premium, bendecida para usted. Pague solo el envío.">
+    
+    <!-- Google Fonts: Outfit for clean modern UI & Cormorant Garamond for sacred headlines -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css?v=1.2.7">
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1275998244606117');
+      fbq('track', 'PageView');
+    </script>
+    <noscript>
+      <img height="1" width="1" style="display:none" 
+           src="https://www.facebook.com/tr?id=1275998244606117&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+<body>
+    <div class="mobile-container">
+        <!-- 1. LANDING VIEW (PRODUCT PRESENTATION) -->
+        <div id="view-product" class="app-view active">
+            <!-- Header -->
+            <header class="app-header">
+                <div class="header-logo">
+                    <span class="logo-cross-symbol">†</span>
+                    <span class="logo-text">Sálvame<span class="logo-light">Reina</span></span>
+                </div>
+                <div class="header-actions">
+                    <button class="icon-btn" aria-label="Notificaciones" onclick="app.showNotificationTip()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+                        <span class="notification-dot"></span>
+                    </button>
+                    <button class="icon-btn cart-badge" aria-label="Carrito" onclick="app.openCheckout()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"></circle><circle cx="19" cy="21" r="1"></circle><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path></svg>
+                        <span class="badge-count">1</span>
+                    </button>
+                </div>
+            </header>
+
+            <main class="product-content">
+                <!-- Promo Ribbon -->
+                <div class="promo-ribbon">
+                    <span class="ribbon-tag">CAMPAÑA DE EVANGELIZACIÓN</span>
+                    <span class="ribbon-text">🔥 ¡Reciba Gratis + Pague solo el Envío!</span>
+                </div>
+
+                <!-- Product Image Gallery (Carousel) -->
+                <section class="gallery-section">
+                    <div class="carousel-container">
+                        <div class="carousel-track" id="carousel-track">
+                            <div class="carousel-slide">
+                                <img src="assets/camiseta_frente.jpg" alt="Camiseta Devocional de Nuestra Señora Aparecida - Frente">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="assets/camiseta_tras.jpg" alt="Camiseta Devocional de Nuestra Señora Aparecida - Reverso">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="assets/camiseta_tabela.jpg" alt="Tabla de Medidas de la Camiseta">
+                            </div>
+                        </div>
+                        <button class="carousel-control prev" id="carousel-prev" aria-label="Foto anterior">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                        </button>
+                        <button class="carousel-control next" id="carousel-next" aria-label="Siguiente foto">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </button>
+                    </div>
+                    <!-- Indicator dots -->
+                    <div class="carousel-dots" id="carousel-dots"></div>
+                </section>
+
+                <!-- Product Information -->
+                <section class="info-section">
+                    <div class="rating-info">
+                        <div class="stars">★★★★★</div>
+                        <span class="rating-val">4.9</span>
+                        <span class="rating-count">(3.420 opiniones)</span>
+                    </div>
+                    <h1 class="product-title">Camiseta Devocional de Nuestra Señora Aparecida (Bendecida)</h1>
+                    <p class="product-subtitle">Manifieste su fe y devoción con esta camiseta religiosa exclusiva. Confeccionada en algodón premium com estampado detallado en Oro Noble de Nuestra Señora Aparecida, bendecida para la protección de su hogar.</p>
+                    
+                    <!-- Size Selection Box -->
+                    <div class="size-selection-container">
+                        <span class="size-title"><i class="fa-solid fa-shirt"></i> Seleccione su Talla:</span>
+                        <div class="size-buttons">
+                            <button type="button" class="size-btn" onclick="app.selectSize('S', this)">S</button>
+                            <button type="button" class="size-btn active" onclick="app.selectSize('M', this)">M</button>
+                            <button type="button" class="size-btn" onclick="app.selectSize('L', this)">L</button>
+                            <button type="button" class="size-btn" onclick="app.selectSize('XL', this)">XL</button>
+                            <button type="button" class="size-btn" onclick="app.selectSize('XXL', this)">XXL</button>
+                        </div>
+                    </div>
+
+                    <!-- Pricing Card (Free + Shipping) -->
+                    <div class="price-card">
+                        <div class="price-old">De $ 79.90</div>
+                        <div class="price-row">
+                            <span class="price-currency">$</span>
+                            <span class="price-current">0</span>
+                            <span class="price-cents">.00</span>
+                            <span class="price-badge">100% GRATIS</span>
+                        </div>
+                        <div class="price-installments">
+                            *Campaña nacional de evangelización y fortalecimiento de las parroquias
+                        </div>
+                        <div class="price-pix">
+                            ✨ Camiseta de regalo. Usted contribuye únicamente con el <strong>envío postal</strong> de entrega.
+                        </div>
+                        <div class="shipping-info">
+                            <span class="shipping-icon">⚡</span>
+                            <span class="shipping-text">Envío calculado en el checkout - Despacho en 24h</span>
+                        </div>
+                    </div>
+                    
+                    <button class="buy-button-cta-inline" onclick="app.openCheckout()">
+                        QUIERO RECIBIRLA GRATIS
+                        <span class="pulse-ring"></span>
+                    </button>
+                </section>
+
+                <!-- Features Grid -->
+                <section class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">👕</div>
+                        <h3 class="feature-title">Algodón Premium</h3>
+                        <p class="feature-desc">Tejido suave 100% Algodón peinado 30.1, muy cómodo y duradero.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">✨</div>
+                        <h3 class="feature-title">Estampado Noble</h3>
+                        <p class="feature-desc">Estampado silk-screen en Oro Noble brillante con alto nivel de detalle.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🙏</div>
+                        <h3 class="feature-title">Regalo Bendecido</h3>
+                        <p class="feature-desc">Bendecida con intención solemne por las familias y la salud de quien la viste.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📮</div>
+                        <h3 class="feature-title">Envío Rápido</h3>
+                        <p class="feature-desc">Envío postal directo a su domicilio con código de seguimiento en su celular.</p>
+                    </div>
+                </section>
+
+                <!-- Banner Section -->
+                <section class="banner-section">
+                    <div class="action-banner">
+                        <div class="banner-overlay"></div>
+                        <div class="banner-content">
+                            <h3>Testifique su fe en el día a día</h3>
+                            <p>Llevar el estampado de Nuestra Señora Aparecida es una señal pública de consagración y amor filial a la Patrona. Recíbala en su casa como regalo de nuestra misión evangelizadora.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Accordions (Specs & Mission) -->
+                <section class="accordion-section">
+                    <div class="accordion-item">
+                        <button class="accordion-header" onclick="app.toggleAccordion(this)">
+                            <span>¿Por qué la camiseta es gratuita?</span>
+                            <span class="accordion-arrow">▼</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>La Asociación Cultural Nuestra Señora de Fátima es una institución sin fines de lucro. La distribución gratuita de estas camisetas religiosas forma parte de nuestra misión de propagar la devoción mariana en los hogares. La única contribución solicitada al devoto es el costo del envío postal, cubriendo exclusivamente los gastos de envío y la logística de entrega.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header" onclick="app.toggleAccordion(this)">
+                            <span>Especificaciones Técnicas</span>
+                            <span class="accordion-arrow">▼</span>
+                        </button>
+                        <div class="accordion-content">
+                            <table class="specs-table">
+                                <tr>
+                                    <td><strong>Tejido</strong></td>
+                                    <td>Tejido 100% Algodón Peinado (Hilo 30.1 Premium)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Estampado</strong></td>
+                                    <td>Silk-screen en Oro Metálico de alta resistencia</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Costura</strong></td>
+                                    <td>Refuerzo de ombro a ombro y cuello redondo acanalado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Corte</strong></td>
+                                    <td>Unisex tradicional, corte suelto y cómodo</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Tallas</strong></td>
+                                    <td>S, M, L, XL y XXL (Tabla estándar de medidas)</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Reviews and Testimonials -->
+                <section class="reviews-section">
+                    <h2>Testimonios de Fieles (+3K)</h2>
+                    
+                    <!-- Photos of clients gallery -->
+                    <div class="photo-testimonials-section">
+                        <h3>📸 Fotos de devotos que ya la recibieron</h3>
+                        <div class="photo-reviews-grid">
+                            <div class="photo-review-item" onclick="app.zoomImage('assets/devoto_1.jpg')">
+                                <img src="assets/devoto_1.jpg" alt="Devota con la camiseta">
+                            </div>
+                            <div class="photo-review-item" onclick="app.zoomImage('assets/devoto_2.jpg')">
+                                <img src="assets/devoto_2.jpg" alt="Pareja con la camiseta">
+                            </div>
+                            <div class="photo-review-item" onclick="app.zoomImage('assets/devoto_3.jpg')">
+                                <img src="assets/devoto_3.jpg" alt="Devoto con la camiseta">
+                            </div>
+                            <div class="photo-review-item" onclick="app.zoomImage('assets/devoto_4.jpg')">
+                                <img src="assets/devoto_4.jpg" alt="Grupo de devotas">
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>💬 Comentarios Recientes</h3>
+
+                    <!-- Review 1 -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <span class="reviewer-avatar" style="background-color: #0a2240; color: #d4af37;">ML</span>
+                            <div>
+                                <span class="reviewer-name">María de Lourdes R.</span>
+                                <span class="reviewer-verified">✓ Apoyadora verificada</span>
+                            </div>
+                        </div>
+                        <div class="review-stars">★★★★★</div>
+                        <div class="review-title">¡El tejido es maravilloso, 100% algodón!</div>
+                        <p class="review-text">La camiseta es maravillosa, el tejido es muy suave y cómodo. El estampado en oro brilla mucho, ¡es hermosa! Valió mucho la pena pagar el costo de envío, llegó súper bien embalada y con un regalito adicional. ¡La recomiendo!</p>
+                        <span class="review-date">Hace 2 días</span>
+                    </div>
+
+                    <!-- Review 2 -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <span class="reviewer-avatar" style="background-color: #0a2240; color: #d4af37;">AM</span>
+                            <div>
+                                <span class="reviewer-name">Antonio M.</span>
+                                <span class="reviewer-verified">✓ Apoyador verificado</span>
+                            </div>
+                        </div>
+                        <div class="review-stars">★★★★★</div>
+                        <div class="review-title">Queda muy bien, excelente corte</div>
+                        <p class="review-text">Pedí la talla L y me quedó perfectamente. Costuras reforzadas y la imagen de Nuestra Señora Aparecida es impecable. Envío súper rápido. Felicitaciones a la asociación por tan hermoso proyecto.</p>
+                        <span class="review-date">Hace 5 días</span>
+                    </div>
+
+                    <!-- Review 3 -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <span class="reviewer-avatar" style="background-color: #0a2240; color: #d4af37;">FS</span>
+                            <div>
+                                <span class="reviewer-name">Francisca S.</span>
+                                <span class="reviewer-verified">✓ Apoyadora verificada</span>
+                            </div>
+                        </div>
+                        <div class="review-stars">★★★★★</div>
+                        <div class="review-title">¡Excelente calidad, lo recomiendo!</div>
+                        <p class="review-text">La compré para ir a misa los domingos. Todos elogiaron el brillo del estampado. El algodón es fresco y fuerte, ya la he lavado tres veces y el estampado sigue perfecto como nuevo. Pueden pedir sin miedo.</p>
+                        <span class="review-date">Hace 1 semana</span>
+                    </div>
+                </section>
+
+                <!-- Reputation Badge (Styled cleanly) -->
+                <section class="trust-badge-container">
+                    <div class="ra-badge-card">
+                        <div class="ra-header">
+                            <div class="ra-seal">
+                                <div class="ra-seal-inner">OK</div>
+                                <div class="ra-seal-rating">100%</div>
+                            </div>
+                            <div class="ra-title-block">
+                                <span class="ra-tag">✓ REPUTACIÓN EXCELENTE</span>
+                                <div class="ra-score">9.9<span class="ra-score-max">/10</span></div>
+                            </div>
+                        </div>
+                        <div class="ra-divider"></div>
+                        <div class="ra-stats-grid">
+                            <div class="ra-stat-item">
+                                <span class="ra-stat-val">100%</span>
+                                <span class="ra-stat-label">Dudas Respondidas</span>
+                            </div>
+                            <div class="ra-stat-item">
+                                <span class="ra-stat-val">99.1%</span>
+                                <span class="ra-stat-label">Índice de Solución</span>
+                            </div>
+                            <div class="ra-stat-item">
+                                <span class="ra-stat-val">97.8%</span>
+                                <span class="ra-stat-label">Volverían a Apoyar</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Security Badges -->
+                <section class="security-badges">
+                    <div class="badge-item">
+                        <span class="badge-icon">🔒</span>
+                        <span>Donación 100% Segura</span>
+                    </div>
+                    <div class="badge-item">
+                        <span class="badge-icon">🛡️</span>
+                        <span>Institución de Fe desde 1997</span>
+                    </div>
+                    <div class="badge-item">
+                        <span class="badge-icon">💬</span>
+                        <span>Soporte por WhatsApp</span>
+                    </div>
+                </section>
+                
+                <section class="footer-cta-container text-center" style="padding: 24px 16px; background-color: #fafafa; border-top: 1px solid var(--clr-border);">
+                    <button class="buy-button-cta-inline" onclick="app.openCheckout()">
+                        QUIERO RECIBIR MI CAMISETA GRATIS <i class="fa-solid fa-gift"></i>
+                    </button>
+                </section>
+            </main>
+        </div>
+
+        <!-- 2. CHECKOUT VIEW (SCREEN OVERLAY) -->
+        <div id="view-checkout" class="app-view">
+            <!-- Checkout Header -->
+            <header class="checkout-header">
+                <button class="back-btn" onclick="app.closeCheckout()" aria-label="Volver">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                </button>
+                <h2>Solicitar Regalo</h2>
+                <div class="secure-ssl-badge">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                    Seguro
+                </div>
+            </header>
+
+            <!-- Steps navigation bar -->
+            <div class="checkout-steps-nav">
+                <div class="step-indicator active" id="step-nav-1">1. Registro</div>
+                <div class="step-indicator" id="step-nav-2">2. Entrega</div>
+                <div class="step-indicator" id="step-nav-3">3. Pago</div>
+            </div>
+
+            <div class="checkout-content">
+                <!-- STEP 1: PERSONAL DETAILS -->
+                <div class="checkout-step active" id="step-form-1">
+                    <h3 class="step-title">Datos del Apoyador</h3>
+                    <p class="step-desc">Sus datos personales están protegidos por encriptación en un entorno seguro.</p>
+
+                    <form id="form-personal" onsubmit="app.nextStep(1, event)">
+                        <div class="form-group">
+                            <label for="input-name">Nombre Completo</label>
+                            <input type="text" id="input-name" placeholder="Ej: María de Fátima Silva" required autocomplete="name">
+                            <span class="error-msg" id="error-name">Ingrese su nombre completo</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="input-email">Correo Electrónico de Confirmación</label>
+                            <input type="email" id="input-email" placeholder="Ej: sunombre@correo.com" required autocomplete="email">
+                            <span class="error-msg" id="error-email">Ingrese un correo válido</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="input-phone">WhatsApp / Celular</label>
+                            <input type="tel" id="input-phone" placeholder="Ej: 55 1234 5678" required autocomplete="tel">
+                            <span class="error-msg" id="error-phone">Ingrese un celular válido</span>
+                        </div>
+
+                        <button type="submit" class="submit-step-btn">
+                            Avanzar a Entrega <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- STEP 2: SHIPPING ADDRESS & SHIPPING SELECTION -->
+                <div class="checkout-step" id="step-form-2">
+                    <h3 class="step-title">Dirección de Envío del Regalo</h3>
+                    <p class="step-desc">Ingrese su dirección de entrega a continuación.</p>
+
+                    <form id="form-shipping" onsubmit="app.nextStep(2, event)">
+                        <div class="form-group zip-group">
+                            <label for="input-cep">Código Postal</label>
+                            <div class="cep-input-wrapper">
+                                <input type="text" id="input-cep" placeholder="Ej: 01000" required>
+                            </div>
+                            <span class="error-msg" id="error-cep">Código postal inválido</span>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group flex-2">
+                                <label for="input-street">Calle / Avenida</label>
+                                <input type="text" id="input-street" placeholder="Ej: Calle Juárez" required>
+                            </div>
+                            <div class="form-group flex-1">
+                                <label for="input-number">Número</label>
+                                <input type="text" id="input-number" placeholder="Ej: 290" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="input-complement">Complemento (Opcional)</label>
+                            <input type="text" id="input-complement" placeholder="Ej: Apto 12, Piso 2">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="input-neighborhood">Colonia / Barrio</label>
+                            <input type="text" id="input-neighborhood" placeholder="Ej: Centro" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group flex-2">
+                                <label for="input-city">Ciudad</label>
+                                <input type="text" id="input-city" placeholder="Ej: Ciudad de México" required>
+                            </div>
+                            <div class="form-group flex-1">
+                                <label for="input-state">Estado / Prov.</label>
+                                <input type="text" id="input-state" placeholder="Ej: CDMX" required>
+                            </div>
+                        </div>
+
+                        <h4 class="checkout-subtitle"><i class="fa-solid fa-heart"></i> Elija su Donación <span style="font-size: 11px; color: var(--clr-success); margin-left: 8px;">(Envío Gratis)</span></h4>
+                        <div class="shipping-options-grid">
+                            <label class="shipping-option-card active" id="label-shipping-normal">
+                                <input type="radio" name="shipping-fee" value="10.00" checked onclick="app.updateShipping(10.00, 'normal')">
+                                <div class="shipping-option-info">
+                                    <span class="option-name">Donación Devoto</span>
+                                    <span class="option-time">Ayuda para envío bendecido + Envío Gratis</span>
+                                </div>
+                                <span class="option-price">$ 10.00</span>
+                            </label>
+
+                            <label class="shipping-option-card" id="label-shipping-sedex">
+                                <input type="radio" name="shipping-fee" value="15.00" onclick="app.updateShipping(15.00, 'sedex')">
+                                <div class="shipping-option-info">
+                                    <span class="option-name">Donación Protector</span>
+                                    <span class="option-time">Ayuda para envío bendecido + Envío Gratis</span>
+                                </div>
+                                <span class="option-price">$ 15.00</span>
+                            </label>
+
+                            <label class="shipping-option-card" id="label-shipping-test">
+                                <input type="radio" name="shipping-fee" value="20.00" onclick="app.updateShipping(20.00, 'test')">
+                                <div class="shipping-option-info">
+                                    <span class="option-name">Donación Padrino</span>
+                                    <span class="option-time">Ayuda para envío bendecido + Envío Gratis</span>
+                                </div>
+                                <span class="option-price">$ 20.00</span>
+                            </label>
+                        </div>
+
+                        <div class="step-buttons-row">
+                            <button type="button" class="back-step-btn" onclick="app.prevStep(1)"><i class="fa-solid fa-chevron-left"></i> Volver</button>
+                            <button type="submit" class="submit-step-btn flex-2">Continuar <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- STEP 3: NATIVE PAYMENT (CREDIT CARD ONLY) -->
+                <div class="checkout-step" id="step-form-3">
+                    <h3 class="step-title">Concluir Donación</h3>
+                    <p class="step-desc">Complete sus datos de pago para despachar su regalo bendecido.</p>
+
+                    <div class="order-summary-box">
+                        <div class="product-item-row">
+                            <div class="product-info-col">
+                                <span class="product-title-bold">1x Camiseta N. Sra. Aparecida (Talla: <span id="checkoutDisplaySize">M</span>)</span>
+                                <span class="product-qty-tag">Cant: 1x</span>
+                            </div>
+                            <span class="product-price-bold free-tag">$ 0.00</span>
+                        </div>
+                        <div class="product-item-row">
+                            <div class="product-info-col">
+                                <span class="shipping-title-bold" id="checkoutDisplayShippingType">Donación Devoto (Envío Gratis)</span>
+                            </div>
+                            <span class="product-price-bold" id="checkoutDisplayShippingCost">$ 10.00</span>
+                        </div>
+                        <div class="summary-divider"></div>
+                        <div class="summary-line-row">
+                            <span>Total de la Donación:</span>
+                            <span class="total-price-large" id="checkoutDisplayTotal">$ 10.00</span>
+                        </div>
+                    </div>
+
+                    <!-- Hotmart Redirect Block -->
+                    <div class="payment-subform-container">
+                        <div class="payment-subform active" id="subform-hotmart">
+                            <div class="pix-info-card" style="background: rgba(212, 175, 55, 0.05); border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 8px; padding: 16px; margin-bottom: 20px;">
+                                <span class="pix-badge-accent" style="background: var(--clr-accent); color: var(--clr-primary); font-weight: 700; font-size: 11px; padding: 4px 8px; border-radius: 4px; display: inline-block; margin-bottom: 8px;">Redirección Segura</span>
+                                <p style="font-size: 13px; color: var(--clr-text-light); margin: 0; line-height: 1.5;">Haga clic en el botón de abajo para ser redirigido de manera segura a nuestra plataforma de pago en Hotmart y completar su donación.</p>
+                            </div>
+                            <button type="button" class="generate-payment-btn" onclick="app.redirectToHotmart()">
+                                Ir a realizar el Pago Seguro <i class="fa-solid fa-external-link" style="margin-left: 8px;"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Secure seal -->
+                    <div class="mercadopago-badge-card">
+                        <div class="badge-text-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#d4af37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                            <span>Pago Procesado de Forma Segura</span>
+                        </div>
+                        <p class="badge-subtext">Encriptación y seguridad SSL conforme a las normativas de seguridad internacional.</p>
+                    </div>
+
+                    <div class="step-buttons-row" style="margin-top: 16px;">
+                        <button type="button" class="back-step-btn" onclick="app.prevStep(2)"><i class="fa-solid fa-chevron-left"></i> Volver</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Loader modal overlay -->
+            <div class="payment-loader-overlay" id="payment-loader">
+                <div class="loader-card">
+                    <div class="spinner-circle"></div>
+                    <h3>Procesando Pedido...</h3>
+                    <p>Por favor, espere. Estamos verificando sus datos de pago seguro.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. SUCCESS VIEW -->
+        <div id="view-success" class="app-view">
+            <div class="success-screen-content">
+                <div class="success-badge-container">
+                    <div class="success-circle" id="success-status-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    </div>
+                </div>
+                
+                <h1 id="success-status-title">¡Pedido Confirmado!</h1>
+                <p class="success-main-text" id="success-status-desc">¡Felicitaciones! Su donación fue procesada con éxito. Sus datos de envío ya han sido enviados a nuestra distribuidora.</p>
+                
+                <!-- Confetti Canvas -->
+                <canvas id="confetti-canvas" class="confetti-canvas"></canvas>
+
+                <!-- Order Receipt Card -->
+                <div class="receipt-card">
+                    <div class="receipt-header">
+                        <span>Código del Pedido:</span>
+                        <strong id="success-order-id">#SR-136413-ES</strong>
+                    </div>
+                    <div class="receipt-item-row">
+                        <div class="item-thumb">
+                            <img src="assets/camiseta.jpg" alt="Camiseta Nuestra Señora Aparecida">
+                        </div>
+                        <div class="item-info">
+                            <span class="item-name">Camiseta Devocional de Nuestra Señora Aparecida (Gratis)</span>
+                            <span class="item-qty">Talla: <strong id="successDisplaySize">M</strong></span>
+                        </div>
+                        <div class="item-price" id="successTotalPaid">
+                            $ 10.00
+                        </div>
+                    </div>
+
+                    <div class="receipt-divider"></div>
+
+                    <div class="receipt-details">
+                        <div class="receipt-line">
+                            <span>Destinatario:</span>
+                            <strong id="successDonorName">Cargando...</strong>
+                        </div>
+                        <div class="receipt-line">
+                            <span>Entregar en:</span>
+                            <strong id="successAddressText">Cargando...</strong>
+                        </div>
+                        <div class="receipt-line">
+                            <span>Envío:</span>
+                            <strong id="successShippingType">Donación Devoto</strong>
+                        </div>
+                        <div class="receipt-line">
+                            <span>Método:</span>
+                            <strong id="successMethodText">Tarjeta de Crédito</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Shipping Status Timeline -->
+                <div class="shipping-status-box">
+                    <h3>Estado del Envío</h3>
+                    <div class="timeline">
+                        <div class="timeline-item active" id="timeline-step-1">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-info">
+                                <h4>Pedido Confirmado</h4>
+                                <p id="timeline-step-1-desc">Pago acreditado y pedido generado en el sistema.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item pending" id="timeline-step-2">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-info">
+                                <h4>Preparación en Almacén</h4>
+                                <p>Empaque de la camiseta en la talla seleccionada y despacho.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item pending" id="timeline-step-3">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-info">
+                                <h4>Recolección Postal</h4>
+                                <p>Código de seguimiento enviado por correo electrónico y WhatsApp.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="back-home-btn" onclick="app.resetEcomFlow()">
+                    Volver al Inicio
+                </button>
+            </div>
+        </div>
+
+        <!-- Notification modal overlay (simulated native notification) -->
+        <div class="toast-notification" id="toast-tip">
+            <div class="toast-content">
+                <span class="toast-icon">✨</span>
+                <span class="toast-msg">María acaba de solicitar su camiseta gratis.</span>
+            </div>
+        </div>
+
+        <!-- Zoom Image Modal -->
+        <div class="zoom-modal-overlay" id="zoom-modal" onclick="app.closeZoomImage()">
+            <div class="zoom-modal-card">
+                <img src="" alt="Imagen Ampliada" id="zoom-modal-img">
+            </div>
+        </div>
+    </div>
+
+    <!-- FontAwesome for beautiful icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Mercado Pago SDK -->
+    <script src="https://sdk.mercadopago.com/js/v2"></script>
+    <!-- JavaScript Logic -->
+    <script src="app.js?v=1.2.7"></script>
+</body>
+</html>
