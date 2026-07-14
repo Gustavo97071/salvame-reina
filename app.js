@@ -3,8 +3,8 @@
    ========================================================================== */
 const state = {
     shippingType: 'normal',
-    shippingCost: 10.00,
-    totalCost: 10.00,
+    shippingCost: 5.00,
+    totalCost: 5.00,
     paymentMethod: 'card',
     donor: {
         name: '',
@@ -524,8 +524,8 @@ const app = {
         
         // Clear state
         state.shippingType = 'normal';
-        state.shippingCost = 10.00;
-        state.totalCost = 10.00;
+        state.shippingCost = 5.00;
+        state.totalCost = 5.00;
         state.paymentMethod = 'card';
         state.donor.size = 'M';
         
@@ -537,7 +537,7 @@ const app = {
         const checkoutSizeDisp = document.getElementById('checkoutDisplaySize');
         if (checkoutSizeDisp) checkoutSizeDisp.textContent = 'M';
         
-        this.updateShipping(10.00, 'normal');
+        this.updateShipping(5.00, 'normal');
         
         window.scrollTo({ top: 0 });
     },
